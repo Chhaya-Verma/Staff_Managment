@@ -1,0 +1,172 @@
+/* General container for the page */
+.create-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Styling the form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+/* Each form group (title, description, etc.) */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Navbar and Sidebar Layout */
+.create-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.create-task .form-group select {
+  width: 100%;
+}
+
+/* Add padding and margins for Navbar and Sidebar to fit */
+.navbar, .sidebar {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #343a40;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  color: white;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.sidebar a:hover {
+  color: #007bff;
+}
+
+/* Make the page responsive */
+@media (max-width: 768px) {
+  /* Stack the Navbar and Sidebar */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  .sidebar {
+    position: fixed;
+    width: 200px;
+    top: 0;
+    left: -200px; /* Hidden by default */
+    transition: left 0.3s ease;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .create-task {
+    margin-left: 0;
+    padding-top: 80px; /* Adjust padding for the Navbar */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 500px) {
+  button {
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  input, select, textarea {
+    font-size: 0.9rem;
+  }
+
+  .create-task {
+    padding: 10px;
+    margin-top: 60px;
+  }
+}

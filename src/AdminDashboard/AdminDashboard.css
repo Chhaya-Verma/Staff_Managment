@@ -1,0 +1,208 @@
+/* Admin Dashboard Styles */
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  height: 100vh;
+}
+
+/* Profile section styles */
+.profile {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profile h2 {
+  margin: 0;
+}
+
+.profile p {
+  margin: 5px 0;
+}
+
+/* Navigation styles */
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 25px;
+  border-bottom: 1px solid #34495e;
+}
+
+.nav li:hover {
+  background-color: #34495e;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+  overflow-y: auto;
+}
+
+/* Dashboard header styles */
+.dashboard-header {
+  margin-bottom: 30px;
+  margin-top: 45px;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  color: #34495e;
+}
+
+/* Metrics section styles */
+.metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px; /* Adjust for sidebar width */
+}
+
+.metric {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 22%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.metric h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.metric p {
+  font-size: 24px;
+  color: #2980b9;
+  margin: 0;
+}
+
+.metric:hover {
+  background-color: #f0f3f4;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .admin-dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .main-content {
+    margin-left: 0; /* Reset margin when sidebar is stacked */
+    padding: 10px;
+  }
+
+  .metrics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metric {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust sidebar width for smaller screens */
+  .sidebar {
+    width: 200px;
+  }
+
+  .main-content {
+    margin-left: 0; /* Reset margin when sidebar shrinks */
+  }
+
+  .metrics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .metric {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .sidebar {
+    display: none; /* Hide sidebar on small screens */
+  }
+
+  /* Optional: Add a mobile menu toggle button for the sidebar */
+  .sidebar-toggle {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for very small screens */
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .metrics {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .metric {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .main-content {
+    padding: 5px;
+  }
+
+  /* Optional: Mobile-friendly font sizes */
+  .dashboard-header h1 {
+    font-size: 22px;
+  }
+
+  .metric h3 {
+    font-size: 16px;
+  }
+
+  .metric p {
+    font-size: 20px;
+  }
+}
