@@ -19,8 +19,6 @@ function App() {
         {/* Route for Login Page */}
         <Route path="/login" element={<Login />} />
   
-        {/* Catch-all route (for invalid paths) */}
-        <Route path="*" element={<LandingPage />} />
       </Routes>
     </div>
   </Router>
