@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "NzgPK4BT8mbyL9I2XUGLQOuxXgW2",
+      "name": "Ina Dewangan",
+      "gender": "Female",
+      "email": "ina@gmail.com",
+      "password": "123456789",
+      "role": "Admin"
+    },
+    {
+      "id": "EPKHiBH8o5dLOsxQ0lA3cHGBBiN2",
+      "name": "Ina Dewangan",
+      "gender": "Female",
+      "email": "inadewangan23@navgurukul.org",
+      "password": "123456789",
+      "role": "Admin"
+    }
+  ],
+  "tasks": [],
+  "leaves": []
+}
