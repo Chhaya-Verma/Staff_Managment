@@ -1,31 +1,113 @@
-.landing-page {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Mobile Menu Drawer */
+.mobile-menu {
+  background-color: #2d5d77 !important;
+  width: 250px;
+  color: white;
+}
+
+.mobile-menu-item {
+  color: white !important;
+}
+
+.mobile-menu-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: url("https://t3.ftcdn.net/jpg/04/78/80/14/360_F_478801437_L6euBIK8dEm10QpPjb6DuehtLSJRSnBg.jpg")
+    no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Stylish Hero Overlay - Quarter Circle with Animation */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: rgba(45, 93, 119, 0.6); /* Lightened version of navbar color */
+  clip-path: circle(90% at left);
+  transform: translateX(-100%);
+  animation: slideIn 1.5s ease-out forwards;
+}
+
+/* Hero Content Inside Overlay */
+.hero-content {
+  position: relative;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  z-index: 1;
+  max-width: 50%;
+  margin-left: 10%;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons button {
+  margin: 10px;
+}
+
+/* Slide In Animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .hero-overlay {
+    width: 100%;
+    clip-path: circle(120% at left);
+  }
+  .hero-content {
+    max-width: 80%;
     text-align: center;
-    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-  .register-btn, .login-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 10px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .register-btn:hover, .login-btn:hover {
-    background-color: #45a049;
-  }
-  
-  h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
+}
