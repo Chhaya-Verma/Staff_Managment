@@ -1,0 +1,127 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align to the top */
+  overflow: hidden;
+}
+
+/* Background styling */
+.background {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.white-bg {
+  top: 0;
+  height: 70%;
+  background: white;
+}
+
+.blue-bg {
+  bottom: 0;
+  height: 30%;
+  background: #224a62;
+}
+
+/* Form Section (top center) */
+.form-section {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin-top: 50px; /* Space from the top */
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.form-section h1 {
+  font-size: 45px;
+  color: #224a62;
+  margin-bottom: 10px;
+}
+
+.form-section p {
+  color: #224a62;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #224a62;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 16px;
+  background: #224a62;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #224a62;
+}
+
+/* Overlapping Grey Card */
+.card {
+  background: #a1c4da;;
+  width: 90%;
+  max-width: 1500px;
+  height: 250px;
+  margin-top: 30px; 
+  margin-bottom: 90px;/* Pull the card upwards to overlap the blue section */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+/* Info Section */
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* Individual Info Box */
+.info-box {
+  text-align: center;
+  width: 30%;
+  position: relative;
+}
+
+/* Icons (Overlapping Effect) */
+.icon {
+  background: #224a62;
+  color: white;
+  font-size: 54px;
+  padding: 15px;
+  border-radius: 55%;
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}

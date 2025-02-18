@@ -1,0 +1,335 @@
+/* General container styles */
+.about-container {
+  padding: 20px;
+  max-width: 1700px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.about-hero {
+  background-image: url('https://watermark.lovepik.com/photo/20211201/large/lovepik-business-team-office-talking-about-work-picture_501327098.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #224a62;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 2em;
+}
+
+/* Features Section */
+.about-features {
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 1400px; /* Restrict max-width */
+  margin: 0 auto; /* Center the section */
+}
+
+.about-features h2 {
+  font-size: 2.5em;
+  color: #224a62;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.features-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Spread cards out when space allows */
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  flex: 1 1 300px; /* Allows cards to shrink and grow but stay at 300px width */
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+.feature-card h3 {
+  font-size: 1.8em;
+  color: #224a62;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  font-size: 1em;
+  color: #224a62;
+  margin-bottom: 20px;
+}
+
+/* Mission Section */
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  max-width: 1400px; /* Restrict max-width */
+  margin: 0 auto; /* Center the section */
+}
+
+.mission-content {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+}
+
+.mission-text {
+  width: 50%;
+}
+
+.mission-text h2 {
+  font-size: 2.5em;
+  color: #224a62;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.mission-text p {
+  font-size: 1.2em;
+  color: #224a62;
+}
+
+.mission-img img {
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 75px;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Our Team Section */
+.our-team {
+  text-align: center;
+  max-width: 1300px; /* Restrict max-width */
+  margin: 0 auto; /* Center the section */
+}
+
+.our-team h2 {
+  font-size: 2.5em;
+  color: #224a62;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Spread team cards out when space allows */
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 120px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 250px; /* Allows cards to shrink and grow but stay at 250px width */
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.team-card h3 {
+  font-size: 1.8em;
+  color: #224a62;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 1em;
+  color: #224a62;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #224a62;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+  max-width: 1800px;
+  margin-left: 0;
+  margin-right: 0; /* Restrict max-width */
+  /* Center the section */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 100px; /* Adjust logo size */
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.social-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.social-icon:hover {
+  text-decoration: underline;
+}
+
+.newsletter {
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  font-size: 1em;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #3a7d97;
+  border: none;
+  color: white;
+}
+
+.newsletter button:hover {
+  background-color: #224a62;
+}
+
+.back-to-top {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3a7d97;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.back-to-top:hover {
+  background-color: #224a62;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .about-hero {
+      height: 60vh; /* Reduce hero section height for smaller screens */
+  }
+
+  .about-features h2 {
+      font-size: 2em;
+  }
+
+  .features-row {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .feature-card {
+      width: 100%;
+      height: auto; /* Make feature cards responsive */
+  }
+
+  .mission {
+      flex-direction: column;
+      height: auto; /* Remove fixed height */
+  }
+
+  .mission-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .mission-text {
+      width: 100%;
+      text-align: center;
+  }
+
+  .team-row {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .team-card {
+      width: 100%;
+  }
+
+  .footer-links {
+      flex-direction: column;
+      gap: 15px;
+  }
+}

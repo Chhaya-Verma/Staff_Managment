@@ -24,6 +24,7 @@
   .profile-img {
     width: 100px;
     height: 100px;
+    margin-top: 55px;
     border-radius: 50%;
     object-fit: cover;
   }
@@ -33,6 +34,7 @@
     display: block;
     margin-top: 10px;
     width: 100%;
+    margin-top: 55px;
     background-color: #34495e;
     border: 1px solid #fff;
     padding: 5px;
@@ -55,6 +57,7 @@
   .nav ul li {
     margin: 15px 0;
     cursor: pointer;
+    margin-top: 35px;
     padding: 8px 0;
   }
   
