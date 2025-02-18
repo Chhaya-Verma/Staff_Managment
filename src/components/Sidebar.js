@@ -28,7 +28,7 @@ function Sidebar({ profileImage, handleProfileImageChange, userData }) {
         <ul>
           <li onClick={() => navigate("/admin")}>Dashboard</li>
           <li onClick={() => navigate("/create-task")}>Create Task</li>
-          <li onClick={() => navigate("/tasks")}>All Tasks</li>
+          <li onClick={() => navigate("/admin/all-tasks")}>All Tasks</li>
           <li onClick={() => navigate("/supervisors")}>Supervisors</li>
           <li onClick={() => navigate("/staffs")}>Staffs</li>
           <li onClick={() => navigate("/leaves")}>Leaves</li>
