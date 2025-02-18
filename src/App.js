@@ -7,6 +7,10 @@ import AdminDashboard from "./AdminDashboard/AdminDashboard";
 import StaffDashboard from "./StaffDashboard/StaffDashboard";
 import SupervisorDashboard from "./SupervisorDashboard/SupervisorDashboard";
 import CreateTask from "./AdminDashboard/CreateTask";
+import About from "./pages/About"; 
+import ContactUs from "./pages/Contact";
+import AdminAllTask from "./AdminDashboard/AdminAllTask";
+
 function App() {
   return (
     <Router>
@@ -25,6 +29,10 @@ function App() {
     <Route path="/staff" element={<StaffDashboard />} />
     <Route path="/supervisor" element={<SupervisorDashboard />} />
        <Route path="/create-task" element={<CreateTask />} />
+       <Route path="/about" element={<About />} />
+       <Route path="/contact" element={<ContactUs />} />
+       <Route path="/admin/all-tasks" element={<AdminAllTask />} />
+
       </Routes>
     </div>
   </Router>
