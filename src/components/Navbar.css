@@ -1,0 +1,21 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #224a62; /* Adjust to your preferred background color */
+  }
+  
+  .navbar-left .logo {
+    width: 40px; /* Adjust size of the logo */
+    height: auto;
+  }
+  
+  .navbar-right .notification-icon {
+    width: 30px; /* Adjust size of notification icon */
+    height: auto;
+    cursor: pointer;
+  }
+  

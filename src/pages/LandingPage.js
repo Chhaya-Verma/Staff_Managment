@@ -1,3 +1,7 @@
+/*
+ Landing page component.
+  Renders the landing page with a hero section and navigation bar.
+ */
 import React from "react";
 import { Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";

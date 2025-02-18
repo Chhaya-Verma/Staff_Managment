@@ -15,8 +15,47 @@
       "email": "inadewangan23@navgurukul.org",
       "password": "123456789",
       "role": "Admin"
+    },
+    {
+      "id": "1nHETlU2BhgfKZDsi5hZZTI3MRr2",
+      "name": "cv",
+      "gender": "Female",
+      "email": "chhayaverma23@navgurukul.org",
+      "password": "123456789",
+      "role": "Admin"
+    },
+    {
+      "id": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2",
+      "name": "Priyanka",
+      "gender": "Female",
+      "email": "priyanka23@gmail.com",
+      "password": "priyanka",
+      "role": "Supervisor"
+    },
+    {
+      "id": "yq60xWmEOcXvR1nZfpDhhPBw39B3",
+      "name": "Vaibhav",
+      "gender": "Male",
+      "email": "vaibhav@gmail.com",
+      "password": "vaibhav",
+      "role": "Staff"
     }
   ],
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "9b35",
+      "title": "complete the project",
+      "description": "complete the project",
+      "dueDate": "2025-02-14",
+      "assignedTo": "Priyanka"
+    },
+    {
+      "id": "c1ae",
+      "title": "prapare PPT",
+      "description": "prapare PPT",
+      "dueDate": "2025-02-15",
+      "assignedTo": "Vaibhav"
+    }
+  ],
   "leaves": []
 }
