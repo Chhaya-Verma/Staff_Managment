@@ -78,42 +78,6 @@
       "description": "complete the hackathon project.",
       "dueDate": "2025-02-23",
       "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2"
-    },
-    {
-      "id": "94ec",
-      "title": "Work on Staff management project",
-      "assignDate": "2025-02-15",
-      "endDate": "2025-02-16",
-      "description": "Complete create task function of Staff management project.",
-      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
-      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2"
-    },
-    {
-      "id": "4fe1",
-      "title": "Prepare for presentation",
-      "assignDate": "2025-02-19",
-      "endDate": "2025-02-20",
-      "description": "Do the preparation for POSH presentation of English activity.",
-      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
-      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2"
-    },
-    {
-      "id": "f033",
-      "title": "Learn react ",
-      "assignDate": "2025-02-19",
-      "endDate": "2025-02-25",
-      "description": "You have to learn the react from beginner to advanced.",
-      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
-      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3"
-    },
-    {
-      "id": "de3c",
-      "title": "Learn JS",
-      "assignDate": "2025-02-19",
-      "endDate": "2025-02-25",
-      "description": "You have to learn JS.",
-      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
-      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3"
     }
   ],
   "leaves": []
