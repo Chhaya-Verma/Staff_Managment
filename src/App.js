@@ -10,6 +10,8 @@ import CreateTask from "./AdminDashboard/CreateTask";
 import About from "./pages/About"; 
 import ContactUs from "./pages/Contact";
 import AdminAllTask from "./AdminDashboard/AdminAllTask";
+import Supervisors from "./AdminDashboard/Supervisors";
+import Staffs from "./AdminDashboard/Staffs";
 
 function App() {
   return (
@@ -32,7 +34,8 @@ function App() {
        <Route path="/about" element={<About />} />
        <Route path="/contact" element={<ContactUs />} />
        <Route path="/admin/all-tasks" element={<AdminAllTask />} />
-
+      <Route path="/supervisors" element={<Supervisors />} />
+      <Route path="/staffs" element={<Staffs />} />
       </Routes>
     </div>
   </Router>

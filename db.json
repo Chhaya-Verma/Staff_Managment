@@ -51,25 +51,20 @@
   ],
   "tasks": [
     {
-      "id": "c1ae",
-      "title": "prapare PPT",
-      "description": "prapare PPT",
-      "dueDate": "2025-02-15",
-      "assignedTo": "Vaibhav"
-    },
-    {
       "id": "0a6e",
       "title": "complete the hackathon project",
       "description": "complete the hackathon project.",
       "dueDate": "2025-02-23",
-      "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2"
+      "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2",
+      "role": "Supervisor"
     },
     {
       "id": "9147",
       "title": "Share the MOM of meeting",
       "description": "Share the MOM of meeting",
       "dueDate": "2025-02-19",
-      "assignedTo": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22"
+      "assignedTo": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "role": "Supervisor"
     }
   ],
   "leaves": []

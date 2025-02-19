@@ -1,10 +1,12 @@
 import React from "react";
 import "./Contact.css"; // Linking external CSS
 import { FaRunning, FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import LandingPageNavbar from "./LandingPageNavbar";
 
 const ContactUs = () => {
   return (
     <div className="container">
+      <LandingPageNavbar />
       {/* Background sections */}
       <div className="background white-bg"></div>
       <div className="background blue-bg"></div>
