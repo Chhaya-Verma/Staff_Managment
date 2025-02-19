@@ -6,7 +6,8 @@
       "gender": "Female",
       "email": "ina@gmail.com",
       "password": "123456789",
-      "role": "Admin"
+      "role": "Admin",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
       "id": "EPKHiBH8o5dLOsxQ0lA3cHGBBiN2",
@@ -14,7 +15,8 @@
       "gender": "Female",
       "email": "inadewangan23@navgurukul.org",
       "password": "123456789",
-      "role": "Admin"
+      "role": "Admin",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
       "id": "1nHETlU2BhgfKZDsi5hZZTI3MRr2",
@@ -22,7 +24,8 @@
       "gender": "Female",
       "email": "chhayaverma23@navgurukul.org",
       "password": "123456789",
-      "role": "Admin"
+      "role": "Admin",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
       "id": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2",
@@ -30,7 +33,8 @@
       "gender": "Female",
       "email": "priyanka23@gmail.com",
       "password": "priyanka",
-      "role": "Supervisor"
+      "role": "Supervisor",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
       "id": "yq60xWmEOcXvR1nZfpDhhPBw39B3",
@@ -38,7 +42,8 @@
       "gender": "Male",
       "email": "vaibhav@gmail.com",
       "password": "vaibhav",
-      "role": "Staff"
+      "role": "Staff",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
       "id": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
@@ -46,7 +51,17 @@
       "gender": "Female",
       "email": "riya@gmail.com",
       "password": "123456789",
-      "role": "Supervisor"
+      "role": "Supervisor",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
+    },
+    {
+      "id": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2",
+      "name": "Ganga Dewangan",
+      "gender": "Female",
+      "email": "ganga@gmail.com",
+      "password": "123456789",
+      "role": "Staff",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     }
   ],
   "tasks": [
@@ -63,6 +78,42 @@
       "description": "complete the hackathon project.",
       "dueDate": "2025-02-23",
       "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2"
+    },
+    {
+      "id": "94ec",
+      "title": "Work on Staff management project",
+      "assignDate": "2025-02-15",
+      "endDate": "2025-02-16",
+      "description": "Complete create task function of Staff management project.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2"
+    },
+    {
+      "id": "4fe1",
+      "title": "Prepare for presentation",
+      "assignDate": "2025-02-19",
+      "endDate": "2025-02-20",
+      "description": "Do the preparation for POSH presentation of English activity.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2"
+    },
+    {
+      "id": "f033",
+      "title": "Learn react ",
+      "assignDate": "2025-02-19",
+      "endDate": "2025-02-25",
+      "description": "You have to learn the react from beginner to advanced.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3"
+    },
+    {
+      "id": "de3c",
+      "title": "Learn JS",
+      "assignDate": "2025-02-19",
+      "endDate": "2025-02-25",
+      "description": "You have to learn JS.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3"
     }
   ],
   "leaves": []

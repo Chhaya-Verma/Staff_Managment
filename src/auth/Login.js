@@ -191,7 +191,7 @@ function Login() {
         // Pass user data as state to Admin Dashboard
         navigate('/admin', { state: { userData } });
       } else if (userEmployeeType === 'Supervisor') {
-        navigate('/supervisor');
+        navigate('/supervisor', { state: { userId } });
       } else if (userEmployeeType === 'Staff') {
         navigate('/staff');
       }
