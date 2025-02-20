@@ -193,7 +193,7 @@ function Login() {
       } else if (userEmployeeType === 'Supervisor') {
         navigate('/supervisor', { state: { userId } });
       } else if (userEmployeeType === 'Staff') {
-        navigate('/staff');
+        navigate('/staff', { state: { userId } });
       }
 
     } catch (error) {

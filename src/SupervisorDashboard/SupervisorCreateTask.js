@@ -15,6 +15,7 @@ const SupervisorCreateTask = () => {
         description: "",
         assignedBy: userId, // Supervisor ID
         assignedTo: "", // Staff ID
+        assignerRole: "Supervisor",
     });
 
     useEffect(() => {
@@ -41,7 +42,7 @@ const SupervisorCreateTask = () => {
                 endDate: "",
                 description: "",
                 assignedBy: "",
-                assignedTo: "", 
+                assignedTo: "",
             });
         });
     };

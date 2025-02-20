@@ -62,6 +62,15 @@
       "password": "123456789",
       "role": "Staff",
       "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
+    },
+    {
+      "id": "xKqvU8J40aeqgTtpHV9wljew7kR2",
+      "name": "Samar Dewangan",
+      "gender": "Male",
+      "email": "samar@gmail.com",
+      "password": "123456",
+      "role": "Supervisor",
+      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     }
   ],
   "tasks": [
@@ -78,6 +87,86 @@
       "description": "complete the hackathon project.",
       "dueDate": "2025-02-23",
       "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2"
+    },
+    {
+      "id": "4c25",
+      "title": "Learn about MongoDB",
+      "assignDate": "2025-02-16",
+      "endDate": "2025-02-25",
+      "description": "You have to learn about mongodb from beginner to advanced all the things.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2",
+      "assignerRole": "Supervisor"
+    },
+    {
+      "id": "2320",
+      "title": "Send email ",
+      "assignDate": "2025-02-12",
+      "endDate": "2025-02-13",
+      "description": "Send email to every staff members for urgent meeting.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2",
+      "assignerRole": "Supervisor"
+    },
+    {
+      "id": "00e1",
+      "title": "Prepare PPT.",
+      "assignDate": "2025-02-15",
+      "endDate": "2025-02-17",
+      "description": "You have to make one PPT for our staff management project.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3",
+      "assignerRole": "Supervisor"
+    },
+    {
+      "id": "4ee7",
+      "title": "Set the meeting",
+      "assignDate": "2025-02-20",
+      "endDate": "2025-02-21",
+      "description": "Set the meeting with all the staff members.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3",
+      "assignerRole": "Supervisor"
+    },
+    {
+      "id": "f883",
+      "title": "Build an interactive project.",
+      "assignDate": "2025-02-15",
+      "endDate": "2025-02-28",
+      "description": "You have to build one project related to react, json server and firebase.",
+      "assignedBy": "xKqvU8J40aeqgTtpHV9wljew7kR2",
+      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3",
+      "assignerRole": "Supervisor"
+    },
+    {
+      "id": "4dc3",
+      "title": "Do the projects of react, mongodb, firebase, json-server and many more.",
+      "assignDate": "2025-02-18",
+      "endDate": "2025-03-01",
+      "description": "You have to create one project related to all this above things and create one interactive project that we can use in real life.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2",
+      "assignerRole": "Supervisor"
+    },
+    {
+      "id": "1bdc",
+      "title": "Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello",
+      "assignDate": "2025-03-05",
+      "endDate": "2025-03-10",
+      "description": "Bye Bye By Bye Bye Bye Bye Bye ByeeBye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye By Bye Bye Bye Bye Bye ByeeBye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye By Bye Bye Bye Bye Bye ByeeBye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye By Bye Bye Bye Bye Bye ByeeBye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye By Bye Bye Bye Bye Bye ByeeBye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye Bye ",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "yq60xWmEOcXvR1nZfpDhhPBw39B3",
+      "assignerRole": "Supervisor"
+    },
+    {
+      "id": "acee",
+      "title": "Change the code.",
+      "assignDate": "2025-02-20",
+      "endDate": "2025-02-21",
+      "description": "You have to change the code of our staff management project.",
+      "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2",
+      "assignerRole": "Supervisor"
     }
   ],
   "leaves": []

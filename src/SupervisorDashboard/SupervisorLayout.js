@@ -179,8 +179,9 @@
 
 import React, { useState } from "react";
 import SupervisorSidebar from "./SupervisorSidebar";
-import SupervisorNavbar from "./SupervisorNavbar";
+import Navbar from "../components/Navbar";
 import SupervisorCreateTask from "./SupervisorCreateTask";
+import SupervisorAllTasks from "./SupervisorAllTasks";
 import { Grid, Card, CardContent, Typography, Box } from "@mui/material";
 import { People, Task, AssignmentTurnedIn, Work } from "@mui/icons-material";
 
@@ -202,11 +203,13 @@ const SupervisorLayout = () => {
       {/* Main Content Area */}
       <Box sx={{ flexGrow: 1, display: "flex", flexDirection: "column" }}>
         {/* Navbar */}
-        <SupervisorNavbar />
+        <Navbar />
 
         {/* Conditional Rendering for Selected Page */}
         {selectedPage === "create-task" ? (
           <SupervisorCreateTask  />
+        ) : selectedPage === "all-tasks" ? (
+          <SupervisorAllTasks />
         ) : (
           <Box sx={{ p: 3, mt: 8 }}>
             <Grid container spacing={3}>

@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
+import StaffLayout from "./StaffLayout";
 
-function StaffDashboard() {
+const StaffDashboard = () => {
   return (
-    <div>
-      <h1>Welcome Staff</h1>
-      <p>This is the Staff page</p>
-      {/* Render Staff-specific content */}
-    </div>
+    <>
+    <StaffLayout />
+    </>
   );
-}
+};
 
 export default StaffDashboard;
