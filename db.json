@@ -7,6 +7,7 @@
       "email": "ina@gmail.com",
       "password": "123456789",
       "role": "Admin",
+      "institute": "NavGurukul",
       "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
@@ -16,6 +17,7 @@
       "email": "inadewangan23@navgurukul.org",
       "password": "123456789",
       "role": "Admin",
+      "institute": "NavGurukul",
       "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
@@ -25,6 +27,7 @@
       "email": "chhayaverma23@navgurukul.org",
       "password": "123456789",
       "role": "Admin",
+      "institute": "NavGurukul",
       "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
@@ -34,6 +37,7 @@
       "email": "priyanka23@gmail.com",
       "password": "priyanka",
       "role": "Supervisor",
+      "institute": "NavGurukul",
       "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
@@ -43,6 +47,7 @@
       "email": "vaibhav@gmail.com",
       "password": "vaibhav",
       "role": "Staff",
+      "institute": "Involve",
       "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     },
     {
@@ -62,31 +67,17 @@
       "password": "123456789",
       "role": "Staff",
       "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
-    },
-    {
-      "id": "xKqvU8J40aeqgTtpHV9wljew7kR2",
-      "name": "Samar Dewangan",
-      "gender": "Male",
-      "email": "samar@gmail.com",
-      "password": "123456",
-      "role": "Supervisor",
-      "photo": "https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=170667a&w=0&k=20&c=LPUo_WZjbXXNnF6ok4uQr8I_Zj6WUVnH_FpREg21qaY="
     }
   ],
   "tasks": [
-    {
-      "id": "c1ae",
-      "title": "prapare PPT",
-      "description": "prapare PPT",
-      "dueDate": "2025-02-15",
-      "assignedTo": "Vaibhav"
-    },
     {
       "id": "0a6e",
       "title": "complete the hackathon project",
       "description": "complete the hackathon project.",
       "dueDate": "2025-02-23",
-      "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2"
+      "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2",
+      "assignedBy": "NzgPK4BT8mbyL9I2XUGLQOuxXgW2",
+      "assignerRole": "Admin"
     },
     {
       "id": "4c25",
@@ -167,6 +158,31 @@
       "assignedBy": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
       "assignedTo": "v3ZYRpZbrLUeHyFUxwOJfcwGN0N2",
       "assignerRole": "Supervisor"
+    },
+    {
+      "id": "9147",
+      "title": "Share the MOM of meeting",
+      "description": "Share the MOM of meeting",
+      "dueDate": "2025-02-19",
+      "assignedTo": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignedBy": "NzgPK4BT8mbyL9I2XUGLQOuxXgW2",
+      "assignerRole": "Admin"
+    },
+    {
+      "id": "27fb",
+      "title": "complete the files",
+      "description": "complete the files",
+      "dueDate": "2025-02-21",
+      "assignedTo": "Gde0Hrs8YsaZFqtjcEcTmRi4Gpu2",
+      "assignerRole": "Admin"
+    },
+    {
+      "id": "8fa0",
+      "title": "change the code",
+      "description": "change the code",
+      "dueDate": "2025-02-21",
+      "assignedTo": "KzyW5qOLTAX9Mhcg4OGEoIJn4D22",
+      "assignerRole": "Admin"
     }
   ],
   "leaves": []

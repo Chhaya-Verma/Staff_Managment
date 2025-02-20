@@ -1,13 +1,17 @@
 import React from 'react';
 import './About.css'; // Import the CSS file
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faTwitter, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import LandingPageNavbar from "./LandingPageNavbar";
 
 const About = () => {
   return (
     <div className="about-container">
+      <LandingPageNavbar />
       {/* Hero Section */}
       <section className="about-hero">
         <div className="hero-content">
-          <h1>𝔸𝕓𝕠𝕦𝕥 𝕊𝕥𝕒𝕗𝕗 𝕄𝕒𝕟𝕒𝕘𝕖𝕞𝕖𝕟𝕥</h1>
+          <h1>𝗔𝗯𝗼𝘂𝘁 𝗦𝘁𝗮𝗳𝗳 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁</h1>
           <p>Yₒᵤᵣ gₒ-ₜₒ ₚₗₐₜfₒᵣₘ fₒᵣ ₑffₑcₜᵢᵥₑ ₑₘₚₗₒyₑₑ ₜₐₛₖ ₘₐₙₐgₑₘₑₙₜ, ₛₜᵣₑₐₘₗᵢₙₑd ₗₑₐᵥₑ ₐₚₚᵣₒᵥₐₗₛ, ₐₙd ₑₙₕₐₙcₑd ₜₑₐₘ cₒₗₗₐbₒᵣₐₜᵢₒₙ.{/*𝐘𝐨𝐮𝐫 𝐠𝐨-𝐭𝐨 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦 𝐟𝐨𝐫 𝐞𝐟𝐟𝐞𝐜𝐭𝐢𝐯𝐞 𝐞𝐦𝐩𝐥𝐨𝐲𝐞𝐞 𝐭𝐚𝐬𝐤 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭, 𝐬𝐭𝐫𝐞𝐚𝐦𝐥𝐢𝐧𝐞𝐝 𝐥𝐞𝐚𝐯𝐞 𝐚𝐩𝐩𝐫𝐨𝐯𝐚𝐥𝐬, 𝐚𝐧𝐝 𝐞𝐧𝐡𝐚𝐧𝐜𝐞𝐝 𝐭𝐞𝐚𝐦 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧.*/}</p>
         </div>
       </section>
@@ -52,13 +56,13 @@ const About = () => {
         <h2>Meet Our Team</h2>
         <div className="team-row">
           <div className="team-card">
-            <img src="https://sabimages.com/wp-content/uploads/2024/07/cute-girl-pic-dp12.jpg" alt="Team Member 1" className="team-img" />
-            <h3>John Doe</h3>
-            <p>CEO & Founder</p>
+            <img src="https://media.discordapp.net/attachments/1272413876989984898/1341424027264356382/WhatsApp_Image_2024-11-13_at_11.05.24_PM.jpeg?ex=67b5f1fa&is=67b4a07a&hm=2550621d44a499be9c88200d3dad1b264184c2ad688cc1b7037cce3c7ce5b682&=&format=webp&width=471&height=627" alt="Team Member 1" className="team-img" />
+            <h3>Ina Dewangan</h3>
+           <a href='https://www.linkedin.com/in/ina-dewangan/' ><FontAwesomeIcon icon={faLinkedinIn} /></a>
           </div>
           <div className="team-card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdTOVQrZNUkmmPB83Omw4NK_Yqp3N3U1EdCJ8x8Ost0z8INm65LaG9NiCO3KMsY63fSjI&usqp=CAU" alt="Team Member 2" className="team-img" />
-            <h3>Jane Smith</h3>
+            <img src="https://i.pinimg.com/736x/1e/31/ff/1e31ff2b22c02f4c2c22b05ff75a9b0b.jpg" alt="Team Member 2" className="team-img" />
+            <h3>Chhaya Verma</h3>
             <p>CTO</p>
           </div>
         </div>
@@ -66,34 +70,58 @@ const About = () => {
 
       {/* Footer Section */}
       <footer className="footer">
-  <div className="footer-content">
-    <div className="footer-logo">
-      <img src="logo.png" alt="Staff Management Logo" />
-    </div>
-    <p>&copy; 2025 Staff Management | All Rights Reserved</p>
-    <div className="footer-links">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <a href="#">Careers</a>
-      <a href="mailto:support@staffmanagement.io">Contact</a>
-      <a href="#">About Us</a>
-      <a href="#">FAQ</a>
-      <a href="#">Blog</a>
-    </div>
-    <div className="footer-social">
-      <a href="#" className="social-icon">Facebook</a>
-      <a href="#" className="social-icon">Twitter</a>
-      <a href="#" className="social-icon">LinkedIn</a>
-      <a href="#" className="social-icon">Instagram</a>
-    </div>
-    <div className="newsletter">
-      <p>Subscribe to our newsletter:</p>
-      <input type="email" placeholder="Enter your email" />
-      <button>Subscribe</button>
-    </div>
-    <button className="back-to-top">Back to Top</button>
-  </div>
-</footer>
+      <div className="footer-container"> {/* Container for centering and layout */}
+        <div className="footer-section"> {/* Section for Logo & Legal */}
+          <div className="footer-logo">
+            <img src="your-logo.png" alt="Your Logo" /> {/* Replace with your logo */}
+          </div>
+          <div className="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Careers</a>
+          </div>
+        </div>
+
+        <div className="footer-section"> {/* Section for Contact, About, etc. */}
+          <div className="footer-links">
+            <a href="#">Contact</a>
+            <a href="#">About Us</a>
+            <a href="#">FAQ</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+
+        <div className="footer-section"> {/* Section for Social Media */}
+            <div className="footer-social">
+              <a href="#" className="social-icon">
+                <FontAwesomeIcon icon={faFacebookF} /> {/* Use FontAwesomeIcon component */}
+              </a>
+              <a href="#" className="social-icon">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#" className="social-icon">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#" className="social-icon">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
+          </div>
+
+        <div className="footer-section"> {/* Section for Newsletter */}
+          <div className="newsletter">
+            <p>Subscribe to our newsletter:</p>
+            <div className="newsletter-input"> {/* Wrap input and button */}
+              <input type="email" placeholder="Enter your email" />
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="footer-bottom"> {/* Separate bottom bar for copyright */}
+        <p>&copy; {new Date().getFullYear()} Your Company. All Rights Reserved.</p>
+      </div>
+    </footer>
 
     </div>
   );

@@ -1,7 +1,7 @@
-// Import the necessary components from the React and Material-UI libraries
 import React, { useState } from "react";
 import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText, ListItemIcon } from "@mui/material";
 import { Home, Info, ContactMail, Menu as MenuIcon } from "@mui/icons-material"; // Icons
+import { Link } from "react-router-dom"; // Import Link for routing
 import "./LandingPage.css";
 
 // Define the LandingPageNavbar component
@@ -16,9 +16,9 @@ const LandingPageNavbar = () => {
 
   // Define the menu items with their corresponding icons
   const menuItems = [
-    { text: "Home", icon: <Home /> },
-    { text: "About", icon: <Info /> },
-    { text: "Contact Us", icon: <ContactMail /> },
+    { text: "Home", icon: <Home />, path: "/" },
+    { text: "About", icon: <Info />, path: "/about" }, // Added path
+    { text: "Contact Us", icon: <ContactMail />, path: "/contact" }, // Added path
   ];
 
   // Define the drawer component for the mobile menu
@@ -50,7 +50,9 @@ const LandingPageNavbar = () => {
         <div className="nav-links">
           {menuItems.map((item) => (
             <Button key={item.text} color="inherit" startIcon={item.icon}>
-              {item.text}
+              <Link to={item.path} style={{ color: "inherit", textDecoration: "none" }}> {/* Link wrapper */}
+                {item.text}
+              </Link>
             </Button>
           ))}
         </div>
