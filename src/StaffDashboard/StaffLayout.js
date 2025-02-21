@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import StaffSidebar from "./StaffSidebar";
 import Navbar from "../components/Navbar";
 import StaffAssignedTasks from "./StaffAssignedTasks";
-import StaffLeaves from "./StaffLeaves";
+import StaffComposeLeave from "./StaffComposeLeave";
+import StaffSentLeaves from "./StaffSentLeaves";
 import { Grid, Card, CardContent, Typography, Box } from "@mui/material";
 import { People, Task, AssignmentTurnedIn, Work } from "@mui/icons-material";
 
@@ -30,8 +31,10 @@ const SupervisorLayout = () => {
         {/* Conditional Rendering for Selected Page */}
         {selectedPage === "assigned-tasks" ? (
           <StaffAssignedTasks  />
-        ) : selectedPage === "leaves" ? (
-          <StaffLeaves />
+        ) : selectedPage === "compose-leave" ? (
+          <StaffComposeLeave />
+        ) : selectedPage === "sent-leaves" ? (
+          <StaffSentLeaves />
         ) : (
           <Box sx={{ p: 3, mt: 8 }}>
             <Grid container spacing={3}>

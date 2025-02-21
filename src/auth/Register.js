@@ -156,7 +156,7 @@ function SignUp() {
         body: JSON.stringify(userData),
       });
       alert('User registered successfully');
-      navigate('/login');
+      navigate('/login', {state: {institute: instituteName}});
     } catch (error) {
       alert(error.message);
     }

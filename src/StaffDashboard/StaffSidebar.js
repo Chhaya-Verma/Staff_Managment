@@ -1,17 +1,17 @@
 
 import React, { useState } from "react";
-import { Drawer, List, ListItem, ListItemIcon, ListItemText, Avatar, Divider, IconButton, Box, Typography } from "@mui/material";
-import { Dashboard, Task, Assignment, Notifications, ExitToApp, Menu } from "@mui/icons-material";
+import { Drawer, List, ListItem, ListItemIcon, ListItemText, Collapse, Avatar, Divider, IconButton, Box, Typography } from "@mui/material";
+import { Dashboard, Task, Assignment, Notifications, ExitToApp, Menu, ExpandLess, ExpandMore, Send, Inbox } from "@mui/icons-material";
 import ProfileEdit from "../SupervisorDashboard/ProfileEdit";
 
 const SaffSidebar = ({ onMenuSelect }) => {
   const [open, setOpen] = useState(true);
   const [openProfile, setOpenProfile] = useState(false);
+  const [openLeaveMenu, setOpenLeaveMenu] = useState(false);
 
   const menuItems = [
     { text: "Dashboard", icon: <Dashboard />, page: "dashboard" },
     { text: "Assigned Task", icon: <Task />, page: "assigned-tasks" },
-    { text: "Leaves", icon: <Assignment />, page: "leaves" },
     { text: "Notifications", icon: <Notifications />, page: "notifications" },
     { text: "Logout", icon: <ExitToApp />, page: "logout" },
   ];
@@ -53,6 +53,28 @@ const SaffSidebar = ({ onMenuSelect }) => {
               {open && <ListItemText primary={text} />}
             </ListItem>
           ))}
+           {/* Leave Menu */}
+           <ListItem button onClick={() => setOpenLeaveMenu(!openLeaveMenu)}>
+            <ListItemIcon sx={{ color: "white" }}><Assignment /></ListItemIcon>
+            <ListItemText primary="Leaves" />
+            {openLeaveMenu ? <ExpandLess /> : <ExpandMore />}
+          </ListItem>
+          <Collapse in={openLeaveMenu} timeout="auto" unmountOnExit>
+            <List component="div" disablePadding>
+              <ListItem button sx={{ pl: 4 }} onClick={() => onMenuSelect("compose-leave")}>
+                <ListItemIcon sx={{ color: "white" }}>
+                  <Send />
+                </ListItemIcon>
+                <ListItemText primary="Compose" />
+              </ListItem>
+              <ListItem button sx={{ pl: 4 }} onClick={() => onMenuSelect("sent-leaves")}>
+                <ListItemIcon sx={{ color: "white" }}>
+                  <Inbox />
+                </ListItemIcon>
+                <ListItemText primary="Sent" />
+              </ListItem>
+            </List>
+          </Collapse>
         </List>
       </Drawer>
 
